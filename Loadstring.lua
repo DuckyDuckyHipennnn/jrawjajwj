@@ -88,17 +88,17 @@ if type(getinfo) ~= 'function' then
 end
 
 local UI = urlLoad("https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/Library.lua")
-local themeManager = urlLoad("https://raw.githubusercontent.com/tophblindlol/personalfunkyfriday/main/themes.lua")
+local themeManager = urlLoad("https://raw.githubusercontent.com/DuckyDuckyHipennnn/jrawjajwj/refs/heads/main/Lua.Themes")
 
-local metakarrot = urlLoad("https://raw.githubusercontent.com/zealonsz/personalfunkyfriday/refs/heads/main/realmadrid.lua")
+local metakarrot = urlLoad("https://raw.githubusercontent.com/DuckyDuckyHipennnn/jrawjajwj/refs/heads/main/upd.meta")
 local httpService = game:GetService('HttpService')
 
 local framework, scrollHandler, network
 local counter = 0
 
 UI:Notify(string.format('tv off', tick() - start), 3)
-UI:Notify('Skidded By Zealon', 3)
-UI:Notify('unlockables are deleted due to wave executor being shit', 5)
+UI:Notify('Updated by zealon', 3)
+UI:Notify('unlockables are deleted due to wave executor being ass', 5)
 
 while true do
     for _, obj in next, getgc(true) do
